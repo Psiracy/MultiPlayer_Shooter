@@ -1,0 +1,66 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f3758f8f58fdef43803eb9be1df0608, type: 3}
+  m_Name: PhotonServerSettings
+  m_EditorClassIdentifier: 
+  AppSettings:
+    AppIdRealtime: b5ad67d9-49f7-41ce-9f20-18277ab6d8a3
+    AppIdChat: 
+    AppIdVoice: 
+    AppVersion: 
+    UseNameServer: 1
+    FixedRegion: 
+    Server: 
+    Port: 0
+    Protocol: 0
+    EnableLobbyStatistics: 0
+    NetworkLogging: 1
+  StartInOfflineMode: 0
+  PunLogging: 0
+  EnableSupportLogger: 0
+  RunInBackground: 1
+  RpcList:
+  - DestroySpaceship
+  - Fire
+  - RespawnSpaceship
+  - RPC_CreatePlayer
+  - RPC_LoadedGameScene
+  - RPC_PlayerReady
+  - RPC_SetAvatar
+  - AddReadyPlayer
+  - RPC_SpawnBomb
+  - RPC_AddItem
+  - RPC_StartPool
+  - RPC_SpawnBullet
+  - RPC_Heal
+  - RPC_TakeDamage
+  - RPC_Damage
+  - RPC_WalkingAnimation
+  - RPC_SetName
+  - RPC_SetParent
+  - RPC_ShootLaser
+  - RPC_KillLazer
+  - RPC_StartLaser
+  - RPC_StopLaser
+  - RPC_AddPlayerToTeam1
+  - RPC_AddPlayerToTeam2
+  - RPC_ForceStartGame
+  - RPC_xcv
+  - RPC_xcvdd
+  - RPC_AddObjectToTeam1
+  - RPC_AddObjectToTeam2
+  - RPC_ControlPointFight
+  - RPC_SetListTheSame
+  - RPC_AddPlayersToTeam
+  - RPC_UpdateBoard
+  DisableAutoOpenWizard: 1
+  ShowSettings: 1
